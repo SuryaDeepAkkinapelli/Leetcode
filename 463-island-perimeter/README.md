@@ -37,3 +37,13 @@
 	<li><code>grid[i][j]</code> is <code>0</code> or <code>1</code>.</li>
 	<li>There is exactly one island in <code>grid</code>.</li>
 </ul>
+
+
+
+
+
+
+<p>My approach is to this problem is first i will check a cell which is equal to 1.when we find it, we need to look whether its neighbouring cells are land(1) or water(0). If its water(0) we got a side for the island(increment res)</p>
+
+
+
