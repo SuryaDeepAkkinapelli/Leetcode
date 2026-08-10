@@ -23,3 +23,8 @@
 	<li><code>1 &lt;= word.length &lt;= 100</code></li>
 	<li><code>word</code> consists of lowercase and uppercase English letters.</li>
 </ul>
+
+
+<p>My approach for this problem is we check whether the first letter is capital or not. It it is true then we iterate over the string and find whether there are both types of letters in the string. If yes we return false else we return true..
+If the first letter is lowercase, then the remaining part of string should be lowercase 
+</p>
