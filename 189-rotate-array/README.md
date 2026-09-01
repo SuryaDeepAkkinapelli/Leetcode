@@ -38,3 +38,11 @@ rotate 2 steps to the right: [3,99,-1,-100]
 	<li>Try to come up with as many solutions as you can. There are at least <strong>three</strong> different ways to solve this problem.</li>
 	<li>Could you do it in-place with <code>O(1)</code> extra space?</li>
 </ul>
+
+
+
+<p>The approach for this problem is first we reverse the entire array.Then reverse first k elements.Then reverse k+1 to n  elements</p>
+<p>1. Reverse entire array</p>
+<p>2. Reverse first K elements</p>
+<p>3. Reverse K to N elements</p>
+<p>Note : We need to take care if K > N by updating K = K % N..Then if k = 0 no rotations needed</p>
